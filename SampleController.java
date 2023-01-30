@@ -28,6 +28,7 @@ public class SampleController {
     //@PreAuthorize("permitAll()")
     @PutMapping("/examplePut")
     public String examplePut(@RequestBody String example) {
+        //hello
         return "Put Hello, World2!";
 
     }
