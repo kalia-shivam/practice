@@ -16,7 +16,7 @@ public class SampleController {
     //@PreAuthorize("permitAll()")
     @PostMapping("/example")
     public String example() {
-        return "Hello, World!";
+        return "Hello, World2!";
     }
 
 }
