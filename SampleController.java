@@ -17,7 +17,7 @@ public class SampleController {
     //@PreAuthorize("permitAll()")
     @PostMapping("/example")
     public String examplePost(@RequestBody String example) {
-        return "Post Hello, World2!";
+        return "what a change Post Hello, World2!";
     }
 
     //delete umesh
