@@ -12,4 +12,11 @@ public class SampleController {
     public String example() {
         return "Hello, World!";
     }
+
+    //@PreAuthorize("permitAll()")
+    @PostMapping("/example")
+    public String example() {
+        return "Hello, World!";
+    }
+
 }
