@@ -24,13 +24,13 @@ public class SampleController {
     @DeleteMapping("/example1")
     public String example2() {
         return "Hello, World2!";
+    }
 
     //@PreAuthorize("permitAll()")
     @PutMapping("/examplePut")
     public String examplePut(@RequestBody String example) {
-        //hello
+        //hello world
         return "Put Hello, World2!";
-
     }
 
 }
