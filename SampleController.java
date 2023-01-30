@@ -19,8 +19,8 @@ public class SampleController {
     public String examplePost(@RequestBody String example) {
         return "Post Hello, World2!";
     }
-
-    //delete shivam
+    
+    //delete shivam umesh
     @DeleteMapping("/exampleDelete")
     public String exampleDelete() {
         return "Delete Hello, World4!";
