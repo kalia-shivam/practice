@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class SampleController {
 
     //@PreAuthorize("permitAll()")
-    @GetMapping("/example")
-    public String example() {
-        return "Hello, World!";
+    @GetMapping("/exampleGet")
+    public String exampleGet() {
+        return "Get Hello, World!";
     }
 
     //one message
