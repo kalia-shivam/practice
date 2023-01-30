@@ -13,6 +13,7 @@ public class SampleController {
         return "Hello, World!";
     }
 
+    //one message
     //@PreAuthorize("permitAll()")
     @PostMapping("/example")
     public String example() {
