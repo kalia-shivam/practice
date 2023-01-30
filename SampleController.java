@@ -21,9 +21,9 @@ public class SampleController {
     }
 
 
-    @DeleteMapping("/example1")
-    public String example2() {
-        return "Hello, World3!";
+    @DeleteMapping("/exampleDelete")
+    public String exampleDelete() {
+        return "Delete Hello, World4!";
     }
 
     //@PreAuthorize("permitAll()")
