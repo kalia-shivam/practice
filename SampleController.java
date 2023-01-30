@@ -20,7 +20,7 @@ public class SampleController {
         return "Post Hello, World2!";
     }
 
-    //delete
+    //delete umesh
     @DeleteMapping("/exampleDelete")
     public String exampleDelete() {
         return "Delete Hello, World4!";
