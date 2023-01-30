@@ -16,8 +16,8 @@ public class SampleController {
     //one message
     //@PreAuthorize("permitAll()")
     @PostMapping("/example")
-    public String example() {
-        return "Hello, World2!";
+    public String examplePost(@RequestBody String example) {
+        return "Post Hello, World2!";
     }
 
     @DeleteMapping("/example1")
